@@ -63,6 +63,8 @@ function deletescore(pscore){
   score.value.player=pscore-score.value.player
   score.value.computer=0
   score.value.ties=0
+  result.value=null
+  player.value=null
 }
 
 const resultMessage = computed(() => {
